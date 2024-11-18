@@ -1,0 +1,102 @@
+  /* src/components/Dashboard.css */
+
+  .dashboard-container {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      
+    }
+    
+    .center-content {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      
+    }
+    .center-content h2 {
+      font-size: 3em; 
+      color: #16ff68; 
+      margin: 20px 0; 
+    }
+    
+    .dashboard-controls {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #28a745;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .btn:hover {
+      background-color: #175217;
+    }
+    
+    .vegetable-table-container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .vegetable-table {
+      width: 100%;
+      border-collapse: collapse;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .vegetable-table th, .vegetable-table td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .vegetable-table th {
+      background-color: #06601b;
+      color: #ffffff;
+    }
+    
+    .vegetable-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .vegetable-table tr:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .vegetable-image {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+    }
+    
+    .remove-button {
+      padding: 8px 12px;
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .remove-button:hover {
+      background-color: #c0392b;
+    }
+    .quantity-button {
+      background-color: #aca8a8;
+      border-radius: 5px;
+      
+      margin-left: 8px;
+      margin-right: 8px;
+    }

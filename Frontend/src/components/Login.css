@@ -1,0 +1,80 @@
+/* src/components/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(12, 140, 40),rgb(4, 39, 2));
+    /*background-image: url('../assets/images/login-background.jpg'); /* Replace with your local image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .login-box {
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.85); /* Transparent background for better visibility */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #11301c;
+    margin-bottom: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #11301c;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color:  #0a9e48;;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color:  #1b502d;;
+  }
+  
+  .toggle-form {
+    margin-top: 15px;
+  }
+  
+  .toggle-link {
+    color: #a5510c;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-link:hover {
+    color: #609e0a;
+  }
+  
+  

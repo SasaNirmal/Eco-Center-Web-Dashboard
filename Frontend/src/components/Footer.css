@@ -1,0 +1,65 @@
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 60px;
+  background-color: #11301c;
+  color: #ffffff;
+  border-top: 1px solid #444;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.company-info {
+  max-width: 400px;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  color: #82ff22; /* Tomato color for logo */
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.company-links, .get-in-touch {
+  max-width: 200px;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-list a:hover {
+  color: #82ff22; /* Change color on hover */
+}
+
+.get-in-touch p {
+  margin: 0;
+  margin-bottom: 10px;
+}

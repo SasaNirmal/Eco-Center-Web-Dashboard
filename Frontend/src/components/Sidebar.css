@@ -1,0 +1,33 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 200px;
+    background-color: #063920;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+  }
+  
+  .sidebar-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar-nav a:hover, .sidebar-nav a.active-link {
+    background-color: #0e2819;
+  }
+  
